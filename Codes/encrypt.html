@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>login</title>
+</head>
+ <style media="screen">
+      body{
+        background-image:url(cn1.jpg);
+        background-repeat: no-repeat center fixed;
+        background-size: 100%;
+      }
+    </style>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+  <style media="screen">
+    form {
+    margin-left:850px;
+    margin-top: 50px;
+    width:300px;
+    font-size: 20px;
+}
+input {
+margin-bottom:3px;
+padding:10px;
+width: 100%;
+border:1px solid #CCC
+}
+button {
+padding:10px;
+margin-bottom: 10px;
+background-color:paleturquoise;
+}
+label {
+cursor:pointer
+}
+#form-switch {
+display:none
+}
+#register-form {
+display:none
+}
+#form-switch:checked~#register-form {
+display:block
+}
+#form-switch:checked~#login-form {
+display:none
+}
+  </style>
+<body >
+<form method="get" action="http://localhost:5000/enc">
+        <font color=cyan>
+        <br><br><br><br><br><br><br>
+        <label><b>PLAIN TEXT</b></label>
+        <input name="text" placeholder="Enter plain text"><br><br>
+        <label><b>KEY</b></label>
+        <input name="key" placeholder="Enter key" ><br><br>
+        <button><b><a style="color:black" >Encrypt</a></b></button>
+</form>
+</body>
+</html>

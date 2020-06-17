@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>login</title>
+</head>
+ <style media="screen">
+      body{
+        background-image:url(cn1.jpg);
+        background-repeat: no-repeat center fixed;
+        background-size: 100%;
+      }
+    </style>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+  <style media="screen">
+    form {
+    margin-left:650px;
+    margin-top: 300px;
+    width:300px;
+    font-size: 20px;
+}
+input {
+margin-bottom:3px;
+padding:10px;
+width: 100%;
+border:1px solid #CCC
+}
+button {
+padding:10px;
+margin-bottom: 0.5px;
+background-color:paleturquoise;
+}
+label {
+cursor:pointer
+}
+#form-switch {
+display:none
+}
+#register-form {
+display:none
+}
+#form-switch:checked~#register-form {
+display:block
+}
+#form-switch:checked~#login-form {
+display:none
+}
+</style>
+<body >
+<form method="get">
+        <button><b><a style="color:black" href="http://localhost:5000/encrypt">Encrypt</a></b></button>
+        <button><b><a style="color:black" href="http://localhost:5000/decrypt">Decrypt</a></b></button>
+
+</form>
+</body>
+</html>
