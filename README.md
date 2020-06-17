@@ -1,5 +1,5 @@
 # Cryptography
-A  simple project using python flask to encrypt and decrypt the text using Ceaser cipher algorithm.
+A  simple project using python flask to encrypt and decrypt the text using Caesar cipher algorithm.
 
 Steps to execute:
 * Run using python ex.py on command prompt.
